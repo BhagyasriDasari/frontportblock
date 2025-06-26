@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Website</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="light-mode">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">ANISH KUMER SINHA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <button id="toggle-theme" class="btn btn-sm btn-outline-secondary ms-3">
+          <i class="fas fa-moon"></i> Toggle Theme
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex align-items-center min-vh-100">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-start">
+          <h1 class="display-4 fw-bold">Hi, I'm ANISH</h1>
+          <p class="lead">Frontend Developer | UI/UX Enthusiast | Tech Explorer</p>
+          <div class="d-flex gap-3 mt-4 flex-wrap">
+            <a href="resume.pdf" download class="btn btn-dark">Download CV</a>
+            <a href="#contact" class="btn btn-outline-dark">Get in Touch!</a>
+          </div>
+        </div>
+        <div class="col-md-6 text-center mt-4 mt-md-0">
+          <img src="https://res.cloudinary.com/dco8penwb/image/upload/v1750924111/Image_zevhbc.png" alt="Image" class="img-fluid rounded-circle hero-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">This is it. ;)</h2>
+      <p class="text-center">
+        Anish Kr. Sinha is an Indian UI/UX Designer & Front End Developer with a passion for designing beautiful and functional user experiences. Typically, he’s Driven & permanently Curious. He’s obsessed with designing things and even more obsessed with designing cool & clean stuff for the web and mobile. He has been in the business of creating since he hung his first painting on the wall when he was 11.
+He holds a bachelor degree in Computer Applications. During his graduation, he has been actively involved in the web design community for the last 3 years. He has designed websites for small businesses, events, nonprofits and more. Currently he’s based in Bihar, India, where he’s working as an independent creative.
+
+His interests, however, extend beyond the web and he loves helping people with branding and print design. He even loves designing 3D floor plan.
+
+When he’s not designing, he’s probably hanging out with his girlfriend, watching series, sketching or messing around on something inspired by YouTube tutorials.
+      </p>
+    </div>
+  </section>
+
+  <!-- Social Icons (Bottom Left) -->
+  <section id="social-icons" class="position-fixed bottom-0 start-0 p-3 btn-dark">
+    <div class="d-flex flex-column align-items-start gap-3">
+      <a href="https://facebook.com/yourprofile" target="_blank" class="fs-4">
+        <i class="fab fa-facebook icon-color"></i>
+      </a>
+      <a href="https://instagram.com/yourprofile" target="_blank" class="fs-4">
+        <i class="fab fa-instagram icon-color"></i>
+      </a>
+      <a href="https://x.com/yourhandle" target="_blank" class="fs-4">
+        <i class="fab fa-x-twitter icon-color"></i>
+      </a>
+      <a href="https://github.com/yourusername" target="_blank" class="fs-4">
+        <i class="fab fa-github icon-color"></i>
+      </a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" class="fs-4">
+        <i class="fab fa-linkedin icon-color"></i>
+      </a>
+      <a href="https://t.me/yourusername" target="_blank" class="fs-4">
+        <i class="fab fa-telegram icon-color"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <small>&copy; 2025 Anish Kumar Sinha. All rights reserved.</small>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
