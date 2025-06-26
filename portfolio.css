@@ -1,0 +1,57 @@
+/* General Styling */
+
+.navbar .nav-link {
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #000000;
+}
+
+/* Hero Section */
+#hero {
+  padding-top: 100px; /* offset fixed navbar */
+  padding-bottom: 50px;
+}
+
+
+
+/* Skills Section */
+#skills .badge {
+  font-size: 1rem;
+  padding: 10px 15px;
+}
+
+body {
+  transition: background-color 0.4s, color 0.4s;
+  font-family: Arial, sans-serif;
+}
+
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+#social-icons a {
+  color: inherit;
+}
+
+#theme-toggle {
+  z-index: 1000;
+}
+
+.img {
+  height:100px;
+  width:100px;
+}
+
+.icon-color{
+    color:#000000;
+    background-color: #000000;
+}
